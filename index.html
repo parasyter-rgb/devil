@@ -6896,13 +6896,6 @@ function loop(t){
   const dt=Math.min(2.5,(t-(last||t))/16.667);last=t;
   try{if(p){update(dt*GSPD());hud();panels()}draw()}catch(err){console.error(err)}
 }
-requestAnimationFrame(loop);
-</script>
-</body>
-</html>
-
-requestAnimationFrame(loop);
-</script>
 
 requestAnimationFrame(loop);
 </script>
